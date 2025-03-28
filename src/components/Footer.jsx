@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-pokemon-blue text-white py-6 mt-8">
+    <footer className="bg-blue-400 text-white py-6 mt-8">
       <div className="container mx-auto px-4 text-center">
         <p className="mb-2">
           Data provided by{" "}

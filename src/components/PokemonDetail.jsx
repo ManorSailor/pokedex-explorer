@@ -91,11 +91,11 @@ function PokemonDetail() {
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
         {/* Pokémon Header */}
-        <div className="bg-gradient-to-r from-pokemon-blue to-pokemon-dark-blue p-6 text-white">
+        <div className="bg-gradient-to-r from-blue-400 to-blue-500 p-6 text-white">
           <div className="flex justify-between items-start">
             <div>
               <h2 className="text-3xl font-bold capitalize">{pokemon.name}</h2>
-              <p className="text-pokemon-yellow font-semibold">
+              <p className="text-yellow-200 font-semibold">
                 #{pokemon.id.toString().padStart(3, "0")}
               </p>
             </div>
